@@ -17,7 +17,7 @@ function scrolltobottom() {
 }
 
 function getcommentuserlist() {
-  comment_object = $(".name").not(".reply-con .user .name").not("span"); // get comments and filter comments in comments
+  comment_object = $(".name").not(".reply-con .user .name").not("span").not(".up-info_right .name"); // get comments and filter comments in comments
   lower_limit = 0;
   total_len = comment_object.length;
   var user_list = [];
