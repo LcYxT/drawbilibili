@@ -28,7 +28,7 @@ function getcommentuserlist() {
     if (!(mid in mid_list) && user['user_name'] != '没丸没了字幕组'){
       user_list.push(user);
       mid_list[mid] = 1;
-      console.log(user['user_name'] + ' 已加入名单');
+      console.log(user['user_name'] + ' 已加入抽奖池');
     }
     else if (user['user_name'] != '没丸没了字幕组'){
       console.log(user['user_name'] + ' 重复评论，已略过');
@@ -78,7 +78,7 @@ function getrepostuserlist() {
                 + ((user_list[i]['datetime'].getDate() < 10) ? ('0' + user_list[i]['datetime'].getDate()) : user_list[i]['datetime'].getDate()) + " "  
                 + ((user_list[i]['datetime'].getHours() < 10) ? ('0' + user_list[i]['datetime'].getHours()) : user_list[i]['datetime'].getHours()) + ":"  
                 + ((user_list[i]['datetime'].getMinutes() < 10) ? ('0' + user_list[i]['datetime'].getMinutes()) : user_list[i]['datetime'].getMinutes()) + ' '
-                + user_list[i]['user_name'] + ' 已加入名单');
+                + user_list[i]['user_name'] + ' 已加入抽奖池');
   }
   return [user_list, user_list.length];
 }
