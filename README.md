@@ -10,7 +10,7 @@ Works for post reposts and comments,  video comments.
 
 ### Draw single comment winner
 1. Go to video page with URL looks like: https://www.bilibili.com/video/xxxxx or post page with URL looks like: https://t.bilibili.com/xxxxx.
-2. Copy the code from drawbilibili.js and paste to the console of that page then press enter.
+2. Copy the code from [drawbilibili.js](https://github.com/LcYxT/drawbilibili/blob/main/drawbilibili.js) and paste to the console of that page then press enter.
 3. Copy the code below and paste to the console of that page then press enter.
 ```js
 drawcomment()
@@ -19,7 +19,7 @@ drawcomment()
 
 ### Draw single repost winner
 1. Go to post page with URL looks like: https://t.bilibili.com/xxxxx.
-2. Copy the code from drawbilibili.js.
+2. Copy the code from [drawbilibili.js](https://github.com/LcYxT/drawbilibili/blob/main/drawbilibili.js) and paste to the console of that page then press enter.
 3. Copy the code below and paste to the console of that page then press enter.
 ```js
 drawrepost()
